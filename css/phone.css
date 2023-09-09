@@ -1,0 +1,98 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#logo {
+    align-items: center;
+}
+
+
+
+
+
+/* Home Section */
+#home {
+    height: 700px;
+    padding: 3px 28px;
+}
+
+#home::before {
+    height: 700px;
+}
+
+#home p {
+    font-size: 13px;
+
+}
+
+
+
+
+
+/* Services Section */
+#services {
+    flex-direction: column;
+
+}
+
+#services-container {
+    padding: 150px 0px;
+
+}
+
+#services .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Partner Section */
+#partners {
+    flex-wrap: wrap;
+}
+
+#partners img {
+    width: auto;
+    height: auto;
+    padding: 20px 20px;
+}
+
+
+
+
+
+/* Subscribe section */
+#subscribe-box form {
+    width: 80%;
+    align-items: center;
+}
+
+#subscribe::before{
+    width: auto;
+
+}
+
+
+
+
+/* Utility Classes */
+.h-primary {
+    font-size: 26px;
+}
+
+.btn {
+    position: relative;
+    font-size: 13px;
+    padding: 10px 80px;
+}
