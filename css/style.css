@@ -291,7 +291,7 @@ html:focus-within {
 }
 #subscribe select:hover {
     background-color: rgb(228, 226, 226);
-    transform: scale(1.05);
+    transform: scale(0.95);
 }
 #subscribe .btn {
     display: block;
