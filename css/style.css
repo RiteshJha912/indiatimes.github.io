@@ -88,8 +88,9 @@ html:focus-within {
 #navbar ul li a:hover {
     color: white;
     background-color: black;
-    transition: all 0.8s ease 0.3s;
-    transform: rotate(360deg);
+    transition: all 0.6s ease 0s;
+    /* transform: rotate(360deg); */
+    transform: scale(1.08);
 }
 
 #navbar ul li a:active {
@@ -165,6 +166,7 @@ html:focus-within {
     filter: grayscale(0%);
     background-color: #969292;
     transform: scale(1.05);
+    transition: all 0.3s ease 0.1s;
 }
 
 #services .box img {
@@ -214,6 +216,7 @@ html:focus-within {
 .partner-item:hover {
     filter: grayscale(0%);
     scale: 1.05;
+    transition: all 0.3s ease 0s;
 }
 
 #partners img {
